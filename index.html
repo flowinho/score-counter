@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Legenden-Zähler für ein Spiel">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <title>Legenden Zähler</title>
+</head>
+<body>
+    <div class="player-area opponent">
+        <div class="corner-decoration top-left"></div>
+        <div class="corner-decoration top-right"></div>
+        <div class="corner-decoration bottom-left"></div>
+        <div class="corner-decoration bottom-right"></div>
+        <div class="legends" id="legends-player-2">0</div>
+        <div class="buttons">
+            <button id="increase-player-2">+1</button>
+            <button id="decrease-player-2">-1</button>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="timer" id="timer">
+        <span id="timer-display">45:00</span>
+        <div class="timer-controls">
+            <select id="timer-duration">
+                <!-- Generate options dynamically in JS -->
+            </select>
+            <button id="reset-timer">Timer zurücksetzen</button>
+        </div>
+        <div style="display: flex; gap: 10px; justify-content: center;">
+            <button class="reset-round-button" id="start-timer">Runde starten</button>
+            <button class="reset-round-button" id="reset-round">Runde zurücksetzen</button>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="player-area">
+        <div class="corner-decoration top-left"></div>
+        <div class="corner-decoration top-right"></div>
+        <div class="corner-decoration bottom-left"></div>
+        <div class="corner-decoration bottom-right"></div>
+        <div class="legends" id="legends-player-1">0</div>
+        <div class="buttons">
+            <button id="increase-player-1">+1</button>
+            <button id="decrease-player-1">-1</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
