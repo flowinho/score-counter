@@ -185,6 +185,27 @@ select {
     }
 }
 
+.felt-texture {
+    position: relative;
+    background: inherit; /* Beibehaltung der Hintergrundfarbe des Elements */
+    overflow: hidden;
+}
+
+.felt-texture::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(rgba(255, 255, 255, 0.1) 0%, transparent 70%) 0 0,
+                radial-gradient(rgba(255, 255, 255, 0.05) 0%, transparent 70%) 5px 5px,
+                radial-gradient(rgba(0, 0, 0, 0.05) 0%, transparent 70%) 10px 10px;
+    background-size: 10px 10px, 20px 20px, 30px 30px;
+    opacity: 0.4; /* Transparenz der Textur */
+    pointer-events: none; /* Interaktion blockieren */
+}
+
 .info-button {
     position: absolute;
     top: 4px; /* Abstand vom oberen Rand */
