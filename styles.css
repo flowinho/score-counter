@@ -159,6 +159,7 @@ select {
     animation: gold-shimmer 6s infinite;
 }
 
+
 .gold-gradient-slow {
     background: linear-gradient(
         90deg,
