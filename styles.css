@@ -183,3 +183,21 @@ select {
         background-position: 0% 50%;
     }
 }
+
+.info-button {
+    position: absolute;
+    top: 4px; /* Abstand vom oberen Rand */
+    left: 4px; /* Abstand vom linken Rand */
+    width: 16px;
+    height: 16px;
+    background-color: #007bff; /* Blaue Farbe für den Button */
+    color: white; /* Textfarbe */
+    font-size: 12px; /* Schriftgröße passend zum Button */
+    font-weight: bold;
+    text-align: center;
+    line-height: 16px; /* Zentriert den Text vertikal */
+    border-radius: 50%; /* Macht den Button rund */
+    text-decoration: none; /* Entfernt den Unterstrich vom Link */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); /* Leichter Schatten für 3D-Effekt */
+    transition: background-color 0.3s ease; /* Glatter Übergang bei Hover */
+}
