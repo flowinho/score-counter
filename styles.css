@@ -32,6 +32,22 @@ body {
     transform: rotate(180deg);
 }
 
+/* Kleine Sterne */
+.player-area:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, transparent 80%) 0 0,
+                radial-gradient(circle, rgba(255, 255, 255, 0.6) 0%, transparent 80%) 10% 30%,
+                radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, transparent 80%) 30% 20%;
+    background-size: 5px 5px, 8px 8px, 10px 10px;
+    opacity: 0.8;
+    animation: twinkle 5s infinite alternate;
+}
+
 .legends {
     font-size: 6em;
     font-weight: bold;
