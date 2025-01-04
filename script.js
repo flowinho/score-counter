@@ -12,6 +12,7 @@ const timerDuration = document.getElementById('timer-duration');
 const startTimerButton = document.getElementById('start-timer');
 const resetTimerButton = document.getElementById('reset-timer');
 const resetRoundButton = document.getElementById('reset-round');
+const resetLoreButton = document.getElementById('reset-lore');
 const timerElement = document.getElementById('timer');
 
 let timerInterval;
@@ -103,6 +104,12 @@ function resetRound() {
     legendsPlayer2.textContent = legends2;
 }
 
+function resetLore() {
+    legends1 = legends2 = 0;
+    legendsPlayer1.textContent = legends1;
+    legendsPlayer2.textContent = legends2;
+}
+
 increasePlayer1.addEventListener('click', () => updateLegends(1, legends1 + 1));
 decreasePlayer1.addEventListener('click', () => updateLegends(1, legends1 - 1));
 
@@ -112,5 +119,6 @@ decreasePlayer2.addEventListener('click', () => updateLegends(2, legends2 - 1));
 startTimerButton.addEventListener('click', startTimer);
 resetTimerButton.addEventListener('click', resetTimer);
 resetRoundButton.addEventListener('click', resetRound);
+resetLoreButton.addEventListener('click', resetLore);
 
 updateTimerColor();
