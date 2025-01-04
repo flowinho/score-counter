@@ -1,8 +1,8 @@
 {
     "name": "Legenden Zähler",
-    "short_name": "Zähler",
+    "short_name": "LoreCounter",
     "description": "Eine App zur Zählung von Legendenpunkten für zwei Spieler:innen.",
-    "start_url": "/index.html",
+    "start_url": "https://flowinho.github.io/score-counter/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
