@@ -155,7 +155,20 @@ select {
         #f9d423 /* Zurück zu Hellgelb */
     );
     background-size: 200% 200%;
-    animation: gold-shimmer 3s infinite;
+    animation: gold-shimmer 6s infinite;
+}
+
+.gold-gradient-slow {
+    background: linear-gradient(
+        90deg,
+        #f9d423, /* Hellgelb */
+        #f6c700, /* Satter Goldton */
+        #fcc201, /* Sattes Gold */
+        #e2a001, /* Dunklerer Goldton */
+        #f9d423 /* Zurück zu Hellgelb */
+    );
+    background-size: 200% 200%;
+    animation: gold-shimmer 10s infinite;
 }
 
 /* Optionaler Schimmer-Effekt */
