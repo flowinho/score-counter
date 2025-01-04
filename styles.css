@@ -188,8 +188,8 @@ select {
     position: absolute;
     top: 4px; /* Abstand vom oberen Rand */
     left: 4px; /* Abstand vom linken Rand */
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
     background-color: #007bff; /* Blaue Farbe für den Button */
     color: white; /* Textfarbe */
     font-size: 12px; /* Schriftgröße passend zum Button */
