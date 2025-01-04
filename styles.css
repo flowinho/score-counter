@@ -48,6 +48,18 @@ body {
     animation: twinkle 5s infinite alternate;
 }
 
+@keyframes twinkle {
+    0% {
+        opacity: 0.7;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.7;
+    }
+}
+
 .legends {
     font-size: 6em;
     font-weight: bold;
