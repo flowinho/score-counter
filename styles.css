@@ -195,7 +195,7 @@ select {
     font-size: 16px; /* Schriftgröße passend zum Button */
     font-weight: bold;
     text-align: center;
-    line-height: 16px; /* Zentriert den Text vertikal */
+    line-height: 24px; /* Zentriert den Text vertikal */
     border-radius: 50%; /* Macht den Button rund */
     text-decoration: none; /* Entfernt den Unterstrich vom Link */
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); /* Leichter Schatten für 3D-Effekt */
