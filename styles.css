@@ -192,7 +192,7 @@ select {
     height: 24px;
     background-color: #007bff; /* Blaue Farbe für den Button */
     color: white; /* Textfarbe */
-    font-size: 12px; /* Schriftgröße passend zum Button */
+    font-size: 16px; /* Schriftgröße passend zum Button */
     font-weight: bold;
     text-align: center;
     line-height: 16px; /* Zentriert den Text vertikal */
