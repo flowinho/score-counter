@@ -33,6 +33,10 @@ body {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
 }
 
+button {
+    touch-action: manipulation;
+}
+
 .buttons button {
     font-size: 1.5em;
     padding: 10px 20px;
